@@ -1,0 +1,28 @@
+{
+  "pid": 8277,
+  "started_utc": "2026-09-24T15:29:48.976496+00:00",
+  "command": [
+    "/home/mikasa910x/.buildozer/android/platform/android-sdk/emulator/emulator",
+    "-avd",
+    "pdf_editor_ez_api36_16kb",
+    "-no-window",
+    "-no-audio",
+    "-no-snapshot",
+    "-no-boot-anim",
+    "-no-metrics",
+    "-gpu",
+    "software",
+    "-accel",
+    "on",
+    "-memory",
+    "2048",
+    "-cores",
+    "2",
+    "-port",
+    "5580"
+  ],
+  "avd_home": "/tmp/pdf-editor-ez-emulator/avd",
+  "serial": "emulator-5580",
+  "reused_existing_data": true,
+  "host_privilege_reason": "KVM device access only"
+}

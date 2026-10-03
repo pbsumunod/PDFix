@@ -1,0 +1,801 @@
+﻿INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+com.sumclartech.paperlane.DocumentStoreTest:
+INSTRUMENTATION_STATUS: test=compatibilityRejectionDoesNotPublishAnImport
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=compatibilityRejectionDoesNotPublishAnImport
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=invalidGeneratedPdfPreservesPreviousRevisionAndSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=invalidGeneratedPdfPreservesPreviousRevisionAndSource
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=interruptedPermanentDeletionIsHiddenAndFinishesOnRestart
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interruptedPermanentDeletionIsHiddenAndFinishesOnRestart
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=interruptedCommitRecoversOldPdfAfterRepositoryRestart
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=interruptedCommitRecoversOldPdfAfterRepositoryRestart
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=permanentDeletionRequiresTrashAndRemovesOriginalHistoryAndBookmark
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=permanentDeletionRequiresTrashAndRemovesOriginalHistoryAndBookmark
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=localProfileAndReadingPositionPersistAcrossRestart
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=6
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=localProfileAndReadingPositionPersistAcrossRestart
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=traversalNamesAndIdsCannotEscapePrivateStorage
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=7
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=traversalNamesAndIdsCannotEscapePrivateStorage
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=revisionRetentionKeepsOriginalRecoverableAndTrashCanRestore
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=8
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=revisionRetentionKeepsOriginalRecoverableAndTrashCanRestore
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedImportLeavesNoPublishedDocumentOrTemporaryFiles
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=9
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedImportLeavesNoPublishedDocumentOrTemporaryFiles
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=overPageLimitImportLeavesNoPublishedDocument
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=10
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=overPageLimitImportLeavesNoPublishedDocument
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=exportRemainsStableAfterEditAndUndoRestoresOriginalBytes
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.DocumentStoreTest
+INSTRUMENTATION_STATUS: current=11
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=exportRemainsStableAfterEditAndUndoRestoresOriginalBytes
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+com.sumclartech.paperlane.EditorUiTest:
+INSTRUMENTATION_STATUS: test=expiredTrialBlocksNewEditsButExistingWorkStillExportsAndRecovers
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=12
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=expiredTrialBlocksNewEditsButExistingWorkStillExportsAndRecovers
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=coldActivityViewIntentWaitsForLibraryLoadAndDoesNotImportTwiceOnRotation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=13
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Detected multithreaded access to SnapshotStateObserver: previousThreadId=55), currentThread={id=2, name=main}. Note that observation on multiple threads in layout/draw is not supported. Make sure your measure/layout/draw for each Owner (AndroidComposeView) is executed on the same thread.
+	at androidx.compose.runtime.PreconditionsKt.throwIllegalArgumentException(Preconditions.kt:26)
+	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:649)
+	at androidx.compose.ui.node.OwnerSnapshotObserver.observeReads$ui_release(OwnerSnapshotObserver.kt:124)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:489)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:485)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:276)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:274)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.drawWithChildTracking(AndroidGraphicsLayer.android.kt:438)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.access$drawWithChildTracking(AndroidGraphicsLayer.android.kt:55)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:68)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:63)
+	at androidx.compose.ui.graphics.layer.GraphicsLayerV29.record(GraphicsLayerV29.android.kt:251)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.recordInternal(AndroidGraphicsLayer.android.kt:431)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.record-mL-hObY(AndroidGraphicsLayer.android.kt:427)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer.updateDisplayList(GraphicsLayerOwnerLayer.android.kt:269)
+	at androidx.compose.ui.platform.AndroidComposeView.dispatchDraw(AndroidComposeView.android.kt:1916)
+	at android.view.View.draw(View.java:25097)
+	at android.view.View.updateDisplayListIfDirty(View.java:23937)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ThreadedRenderer.updateViewTreeDisplayList(ThreadedRenderer.java:694)
+	at android.view.ThreadedRenderer.updateRootDisplayList(ThreadedRenderer.java:700)
+	at android.view.ThreadedRenderer.draw(ThreadedRenderer.java:798)
+	at android.view.ViewRootImpl.draw(ViewRootImpl.java:5837)
+	at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:5488)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4482)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:3076)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10643)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1570)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1579)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1179)
+	at android.view.Choreographer.doFrame(Choreographer.java:1108)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1553)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.Espresso$1.run(Espresso.java:1)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loopOnce(Looper.java:248)
+	at android.os.Looper.loop(Looper.java:338)
+	at android.app.ActivityThread.main(ActivityThread.java:9067)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+
+INSTRUMENTATION_STATUS: stream=
+Error in coldActivityViewIntentWaitsForLibraryLoadAndDoesNotImportTwiceOnRotation(com.sumclartech.paperlane.EditorUiTest):
+java.lang.IllegalArgumentException: Detected multithreaded access to SnapshotStateObserver: previousThreadId=55), currentThread={id=2, name=main}. Note that observation on multiple threads in layout/draw is not supported. Make sure your measure/layout/draw for each Owner (AndroidComposeView) is executed on the same thread.
+	at androidx.compose.runtime.PreconditionsKt.throwIllegalArgumentException(Preconditions.kt:26)
+	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:649)
+	at androidx.compose.ui.node.OwnerSnapshotObserver.observeReads$ui_release(OwnerSnapshotObserver.kt:124)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:489)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:485)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:276)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:274)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.drawWithChildTracking(AndroidGraphicsLayer.android.kt:438)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.access$drawWithChildTracking(AndroidGraphicsLayer.android.kt:55)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:68)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:63)
+	at androidx.compose.ui.graphics.layer.GraphicsLayerV29.record(GraphicsLayerV29.android.kt:251)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.recordInternal(AndroidGraphicsLayer.android.kt:431)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.record-mL-hObY(AndroidGraphicsLayer.android.kt:427)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer.updateDisplayList(GraphicsLayerOwnerLayer.android.kt:269)
+	at androidx.compose.ui.platform.AndroidComposeView.dispatchDraw(AndroidComposeView.android.kt:1916)
+	at android.view.View.draw(View.java:25097)
+	at android.view.View.updateDisplayListIfDirty(View.java:23937)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ThreadedRenderer.updateViewTreeDisplayList(ThreadedRenderer.java:694)
+	at android.view.ThreadedRenderer.updateRootDisplayList(ThreadedRenderer.java:700)
+	at android.view.ThreadedRenderer.draw(ThreadedRenderer.java:798)
+	at android.view.ViewRootImpl.draw(ViewRootImpl.java:5837)
+	at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:5488)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4482)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:3076)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10643)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1570)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1579)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1179)
+	at android.view.Choreographer.doFrame(Choreographer.java:1108)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1553)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.Espresso$1.run(Espresso.java:1)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loopOnce(Looper.java:248)
+	at android.os.Looper.loop(Looper.java:338)
+	at android.app.ActivityThread.main(ActivityThread.java:9067)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+
+INSTRUMENTATION_STATUS: test=coldActivityViewIntentWaitsForLibraryLoadAndDoesNotImportTwiceOnRotation
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=demoTextFormPagesAndExportProduceTheExpectedPdf
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=14
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=demoTextFormPagesAndExportProduceTheExpectedPdf
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=existingTextEditsPreserveOriginalAndRejectOverflowWithoutClosingTheEditor
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.EditorUiTest
+INSTRUMENTATION_STATUS: current=15
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=existingTextEditsPreserveOriginalAndRejectOverflowWithoutClosingTheEditor
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+com.sumclartech.paperlane.FormDraftStoreTest:
+INSTRUMENTATION_STATUS: test=unfinishedAnswersSurviveAnnotationsWithoutOverwritingFilledOrFlattenedFields
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=16
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=unfinishedAnswersSurviveAnnotationsWithoutOverwritingFilledOrFlattenedFields
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=answersAndQuestionRecoverInANewStoreButNotOnAnotherRevision
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=17
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=answersAndQuestionRecoverInANewStoreButNotOnAnotherRevision
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=deletedDocumentsAreNeverRecreatedAndPathTraversalIsRejected
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=18
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=deletedDocumentsAreNeverRecreatedAndPathTraversalIsRejected
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=failedAtomicWriteKeepsThePreviousDraft
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.FormDraftStoreTest
+INSTRUMENTATION_STATUS: current=19
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=failedAtomicWriteKeepsThePreviousDraft
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+com.sumclartech.paperlane.NativeTextEditorTest:
+INSTRUMENTATION_STATUS: test=replacementRemovesOldTextAndPreservesFontColorVectorsImageAndInteractiveForm
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=20
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=replacementRemovesOldTextAndPreservesFontColorVectorsImageAndInteractiveForm
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=unicodeMappingAloneDoesNotMakeAMissingCidGlyphSafeToInsert
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=21
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=unicodeMappingAloneDoesNotMakeAMissingCidGlyphSafeToInsert
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=subsetFontsReuseAvailableGlyphsAndRefuseMissingGlyphsWithoutProducingAnOutput
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=22
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=subsetFontsReuseAvailableGlyphsAndRefuseMissingGlyphsWithoutProducingAnOutput
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=clippingIntroducedByEitherQuoteOperatorMakesFollowingTextReadOnly
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=23
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=clippingIntroducedByEitherQuoteOperatorMakesFollowingTextReadOnly
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=tjKerningAndTextSpacingKeepTheFollowingTextAtItsOriginalPosition
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=24
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=tjKerningAndTextSpacingKeepTheFollowingTextAtItsOriginalPosition
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=leadingTjOffsetsAndSingleByteWordSpacingRetainBaselineAndFollowingText
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=25
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=leadingTjOffsetsAndSingleByteWordSpacingRetainBaselineAndFollowingText
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cropOriginsAndEveryPageRotationHaveAccurateSelectionsAndUnchangedTextPlacement
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=26
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cropOriginsAndEveryPageRotationHaveAccurateSelectionsAndUnchangedTextPlacement
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=signedAndEncryptedSourcesRefuseListingAndReplacement
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=27
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=signedAndEncryptedSourcesRefuseListingAndReplacement
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=emptyReplacementDeletesGlyphsWithoutMovingFollowingText
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=28
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=emptyReplacementDeletesGlyphsWithoutMovingFollowingText
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=largeInteriorTjSpacingIsNotSilentlyRemovedWhenReplacingText
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=29
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=largeInteriorTjSpacingIsNotSilentlyRemovedWhenReplacingText
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=oversizedReplacementsAndStaleSelectionsAreRejectedBeforeSaving
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=30
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=oversizedReplacementsAndStaleSelectionsAreRejectedBeforeSaving
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=sharedPageStreamsAreIsolatedAndWrongPageSelectionsAreRejected
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.NativeTextEditorTest
+INSTRUMENTATION_STATUS: current=31
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=sharedPageStreamsAreIsolatedAndWrongPageSelectionsAreRejected
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+com.sumclartech.paperlane.PdfEngineTest:
+INSTRUMENTATION_STATUS: test=redactionAndCorrectionUseDisplayedCoordinatesAfterRotationAndCrop
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=32
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=redactionAndCorrectionUseDisplayedCoordinatesAfterRotationAndCrop
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=permanentRedactionRebuildsEveryPageWithoutSourceTextOrHiddenObjects
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=33
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=permanentRedactionRebuildsEveryPageWithoutSourceTextOrHiddenObjects
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=bundledOcrCreatesSearchableTextOnImageOnlyPages
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=34
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=bundledOcrCreatesSearchableTextOnImageOnlyPages
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=cropUsesDisplayedCoordinatesForRotatedPages
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=35
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=cropUsesDisplayedCoordinatesForRotatedPages
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=imageImportAppliesExifOrientation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=36
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=imageImportAppliesExifOrientation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=compressionReportsActualResultAndKeepsSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=37
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=compressionReportsActualResultAndKeepsSource
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=38
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=pageOperationsPreserveTheSelectedOrderAndRotation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=38
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=pageOperationsPreserveTheSelectedOrderAndRotation
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=39
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=formQuestionnaireRoundTripsAndFlattenedValuesSurvivePageExtraction
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=39
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=formQuestionnaireRoundTripsAndFlattenedValuesSurvivePageExtraction
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=40
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=signedSourcesAreViewableButRefuseEditing
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=40
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=signedSourcesAreViewableButRefuseEditing
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=41
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=unicodeAndVectorAnnotationsSurviveReopeningWithoutChangingSource
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=41
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=unicodeAndVectorAnnotationsSurviveReopeningWithoutChangingSource
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=42
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=marksUseDisplayedCoordinatesForAllPageRotationsAndCropOrigins
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=42
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=marksUseDisplayedCoordinatesForAllPageRotationsAndCropOrigins
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=43
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=
+INSTRUMENTATION_STATUS: test=metadataCleanupAndPasswordProtectionAreReal
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.sumclartech.paperlane.PdfEngineTest
+INSTRUMENTATION_STATUS: current=43
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=43
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=metadataCleanupAndPasswordProtectionAreReal
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 59.976
+There was 1 failure:
+1) coldActivityViewIntentWaitsForLibraryLoadAndDoesNotImportTwiceOnRotation(com.sumclartech.paperlane.EditorUiTest)
+java.lang.IllegalArgumentException: Detected multithreaded access to SnapshotStateObserver: previousThreadId=55), currentThread={id=2, name=main}. Note that observation on multiple threads in layout/draw is not supported. Make sure your measure/layout/draw for each Owner (AndroidComposeView) is executed on the same thread.
+	at androidx.compose.runtime.PreconditionsKt.throwIllegalArgumentException(Preconditions.kt:26)
+	at androidx.compose.runtime.snapshots.SnapshotStateObserver.observeReads(SnapshotStateObserver.kt:649)
+	at androidx.compose.ui.node.OwnerSnapshotObserver.observeReads$ui_release(OwnerSnapshotObserver.kt:124)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:489)
+	at androidx.compose.ui.node.NodeCoordinator$drawBlock$1.invoke(NodeCoordinator.kt:485)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:276)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer$recordLambda$1.invoke(GraphicsLayerOwnerLayer.android.kt:274)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.drawWithChildTracking(AndroidGraphicsLayer.android.kt:438)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.access$drawWithChildTracking(AndroidGraphicsLayer.android.kt:55)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:68)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer$clipDrawBlock$1.invoke(AndroidGraphicsLayer.android.kt:63)
+	at androidx.compose.ui.graphics.layer.GraphicsLayerV29.record(GraphicsLayerV29.android.kt:251)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.recordInternal(AndroidGraphicsLayer.android.kt:431)
+	at androidx.compose.ui.graphics.layer.GraphicsLayer.record-mL-hObY(AndroidGraphicsLayer.android.kt:427)
+	at androidx.compose.ui.platform.GraphicsLayerOwnerLayer.updateDisplayList(GraphicsLayerOwnerLayer.android.kt:269)
+	at androidx.compose.ui.platform.AndroidComposeView.dispatchDraw(AndroidComposeView.android.kt:1916)
+	at android.view.View.draw(View.java:25097)
+	at android.view.View.updateDisplayListIfDirty(View.java:23937)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ViewGroup.recreateChildDisplayList(ViewGroup.java:4554)
+	at android.view.ViewGroup.dispatchGetDisplayList(ViewGroup.java:4527)
+	at android.view.View.updateDisplayListIfDirty(View.java:23891)
+	at android.view.ThreadedRenderer.updateViewTreeDisplayList(ThreadedRenderer.java:694)
+	at android.view.ThreadedRenderer.updateRootDisplayList(ThreadedRenderer.java:700)
+	at android.view.ThreadedRenderer.draw(ThreadedRenderer.java:798)
+	at android.view.ViewRootImpl.draw(ViewRootImpl.java:5837)
+	at android.view.ViewRootImpl.performDraw(ViewRootImpl.java:5488)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:4482)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:3076)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10643)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1570)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1579)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1179)
+	at android.view.Choreographer.doFrame(Choreographer.java:1108)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1553)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.Espresso$1.run(Espresso.java:1)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at android.os.Handler.handleCallback(Handler.java:995)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loopOnce(Looper.java:248)
+	at android.os.Looper.loop(Looper.java:338)
+	at android.app.ActivityThread.main(ActivityThread.java:9067)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
+
+FAILURES!!!
+Tests run: 43,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,250 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:66:21: 'jvmTarget: String' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+e: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:106:32: Unresolved reference: util
+e: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:107:18: Unresolved reference: security
+e: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:107:77: Unresolved reference: security
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/mnt/c/Users/Admin/Desktop/Python Projects/PROJECT PYTHON/Paperlane/app/build.gradle.kts' line: 66
+
+* What went wrong:
+Script compilation errors:
+
+  Line 066:     kotlinOptions { jvmTarget = "17" }
+                                ^ 'jvmTarget: String' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+
+  Line 106:             val encoded = java.util.Base64.getDecoder().decode(setting("playBillingPublicKey").replace(Regex("\\s"), ""))
+                                           ^ Unresolved reference: util
+
+  Line 107:             java.security.KeyFactory.getInstance("RSA").generatePublic(java.security.spec.X509EncodedKeySpec(encoded))
+                             ^ Unresolved reference: security
+
+  Line 107:             java.security.KeyFactory.getInstance("RSA").generatePublic(java.security.spec.X509EncodedKeySpec(encoded))
+                                                                                        ^ Unresolved reference: security
+
+4 errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 14s
+
+Rebuild after fixing Kotlin DSL java extension name shadowing
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:69:21: 'jvmTarget: String' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preValidationBuild UP-TO-DATE
+> Task :app:mergeValidationJniLibFolders UP-TO-DATE
+> Task :app:mergeValidationNativeLibs UP-TO-DATE
+> Task :app:stripValidationDebugSymbols UP-TO-DATE
+> Task :app:extractValidationNativeSymbolTables UP-TO-DATE
+> Task :app:mergeValidationNativeDebugMetadata NO-SOURCE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:checkValidationDuplicateClasses UP-TO-DATE
+> Task :app:generateValidationBuildConfig UP-TO-DATE
+> Task :app:checkValidationAarMetadata UP-TO-DATE
+> Task :app:generateValidationResValues UP-TO-DATE
+> Task :app:mapValidationSourceSetPaths UP-TO-DATE
+> Task :app:generateValidationResources UP-TO-DATE
+> Task :app:mergeValidationResources UP-TO-DATE
+> Task :app:packageValidationResources UP-TO-DATE
+> Task :app:parseValidationLocalResources UP-TO-DATE
+> Task :app:createValidationCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksValidation UP-TO-DATE
+> Task :app:processValidationMainManifest UP-TO-DATE
+> Task :app:processValidationManifest UP-TO-DATE
+> Task :app:processValidationManifestForPackage UP-TO-DATE
+> Task :app:processValidationResources UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:585:24 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:598:24 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:613:24 'fun setStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:775:16 'fun setStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:789:80 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:41:39 'val Icons.Outlined.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.ArrowBack.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:49:39 'val Icons.Outlined.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.Undo.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:56:111 'val Icons.Outlined.MenuBook: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.MenuBook.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Home.kt:39:79 'val Icons.Outlined.NoteAdd: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.NoteAdd.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Home.kt:59:166 'val Icons.Outlined.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.ArrowForward.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/PageFormPanels.kt:75:57 'val Icons.Outlined.RotateRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.RotateRight.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/PageFormPanels.kt:130:33 'val Icons.Outlined.Assignment: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.Assignment.
+
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+
+> Task :app:compileValidationKotlin
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:585:24 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:598:24 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:613:24 'fun setStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:775:16 'fun setStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/pdf/PdfEngine.kt:789:80 'fun setNonStrokingColor(p0: Int, p1: Int, p2: Int): Unit' is deprecated. Deprecated in Java.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:41:39 'val Icons.Outlined.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.ArrowBack.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:49:39 'val Icons.Outlined.Undo: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.Undo.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Editor.kt:56:111 'val Icons.Outlined.MenuBook: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.MenuBook.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Home.kt:39:79 'val Icons.Outlined.NoteAdd: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.NoteAdd.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/Home.kt:59:166 'val Icons.Outlined.ArrowForward: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.ArrowForward.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/PageFormPanels.kt:75:57 'val Icons.Outlined.RotateRight: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.RotateRight.
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/src/main/java/com/sumclartech/paperlane/ui/PageFormPanels.kt:130:33 'val Icons.Outlined.Assignment: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.Assignment.
+
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:generateDebugLintReportModel
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:javaPreCompileValidation UP-TO-DATE
+> Task :app:compileValidationJavaWithJavac UP-TO-DATE
+> Task :app:mergeValidationArtProfile UP-TO-DATE
+> Task :app:expandValidationArtProfileWildcards
+> Task :app:mergeValidationGeneratedProguardFiles UP-TO-DATE
+> Task :app:processValidationJavaRes
+> Task :app:mergeValidationJavaResource
+> Task :app:mergeValidationStartupProfile UP-TO-DATE
+> Task :app:lintAnalyzeDebug
+> Task :app:minifyValidationWithR8
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+> Task :app:mergeValidationShaders UP-TO-DATE
+> Task :app:compileValidationShaders NO-SOURCE
+> Task :app:generateValidationAssets UP-TO-DATE
+> Task :app:mergeValidationAssets
+> Task :app:compressValidationAssets
+> Task :app:extractValidationVersionControlInfo UP-TO-DATE
+> Task :app:generateValidationLintVitalReportModel
+> Task :app:lintVitalAnalyzeValidation
+> Task :app:lintVitalReportValidation SKIPPED
+> Task :app:lintVitalValidation SKIPPED
+> Task :app:collectValidationDependencies UP-TO-DATE
+> Task :app:sdkValidationDependencyData UP-TO-DATE
+> Task :app:validateSigningValidation UP-TO-DATE
+> Task :app:writeValidationAppMetadata UP-TO-DATE
+> Task :app:writeValidationSigningConfigVersions UP-TO-DATE
+> Task :app:configureValidationDependencies UP-TO-DATE
+> Task :app:parseValidationIntegrityConfig UP-TO-DATE
+> Task :app:bundleValidationClassesToCompileJar
+> Task :app:preValidationAndroidTestBuild SKIPPED
+> Task :app:generateValidationAndroidTestResValues UP-TO-DATE
+> Task :app:generateValidationAndroidTestLintModel
+> Task :app:generateValidationLintReportModel
+> Task :app:preValidationUnitTestBuild UP-TO-DATE
+> Task :app:generateValidationUnitTestLintModel
+> Task :app:lintAnalyzeValidation
+> Task :app:compileValidationArtProfile
+> Task :app:convertShrunkResourcesToBinaryValidation UP-TO-DATE
+> Task :app:optimizeValidationResources UP-TO-DATE
+> Task :app:packageValidation
+> Task :app:createValidationApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleValidation
+> Task :app:buildValidationPreBundle
+> Task :app:packageValidationBundle
+> Task :app:lintAnalyzeValidationAndroidTest
+> Task :app:lintAnalyzeValidationUnitTest
+
+> Task :app:lintReportValidation
+Wrote HTML report to file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build/reports/lint-results-validation.html
+
+> Task :app:lintValidation
+> Task :app:processValidationAndroidTestManifest UP-TO-DATE
+> Task :app:generateValidationAndroidTestBuildConfig UP-TO-DATE
+> Task :app:checkValidationAndroidTestAarMetadata UP-TO-DATE
+> Task :app:mapValidationAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:generateValidationAndroidTestResources UP-TO-DATE
+> Task :app:mergeValidationAndroidTestResources UP-TO-DATE
+> Task :app:signValidationBundle
+> Task :app:processValidationAndroidTestResources UP-TO-DATE
+> Task :app:produceValidationBundleIdeListingFile
+> Task :app:createValidationBundleListingFileRedirect UP-TO-DATE
+> Task :app:bundleValidation
+> Task :app:javaPreCompileValidationAndroidTest UP-TO-DATE
+> Task :app:mergeValidationAndroidTestShaders UP-TO-DATE
+> Task :app:compileValidationAndroidTestShaders NO-SOURCE
+> Task :app:generateValidationAndroidTestAssets UP-TO-DATE
+> Task :app:mergeValidationAndroidTestAssets UP-TO-DATE
+> Task :app:compressValidationAndroidTestAssets UP-TO-DATE
+> Task :app:checkValidationAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:mergeValidationAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeValidationAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripValidationAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningValidationAndroidTest UP-TO-DATE
+> Task :app:writeValidationAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:compileValidationAndroidTestKotlin
+> Task :app:compileValidationAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:processValidationAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeValidationAndroidTestJavaResource UP-TO-DATE
+> Task :app:minifyValidationAndroidTestWithR8
+> Task :app:packageValidationAndroidTest
+> Task :app:createValidationAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleValidationAndroidTest
+
+[Incubating] Problems report is available at: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3m 53s
+135 actionable tasks: 45 executed, 90 up-to-date

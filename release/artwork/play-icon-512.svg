@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<title>PDFix</title>
+<rect width="512" height="512" fill="#33594A"/>
+<polygon points="137,94 317.88,94 375,151.12 375,418 137,418" fill="#F7F6F2"/>
+<polygon points="317.88,94 317.88,151.12 375,151.12" fill="#CBDDBA"/>
+<polyline points="183,205 310,205" fill="none" stroke="#33594A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="183,256 283,256" fill="none" stroke="#33594A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="193,332 234,373 316,291" fill="none" stroke="#33594A" stroke-width="21" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

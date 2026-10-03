@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+<title>PDFix</title>
+<rect width="1024" height="500" fill="#F7F6F2"/>
+<rect x="624" y="0" width="400" height="500" rx="0" fill="#E2ECD8"/>
+<rect x="80" y="71" width="35" height="5" rx="2" fill="#33594A"/>
+<text x="80" y="124.72" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" fill="#33594A">PDFix</text>
+<text x="75" y="211.8" font-family="Georgia, DejaVu Serif, serif" font-size="60" fill="#263E34">Paperwork,</text>
+<text x="75" y="286.8" font-family="Georgia, DejaVu Serif, serif" font-size="60" fill="#263E34">made easy.</text>
+<text x="80" y="375.94" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" fill="#657066">Scan. Fill. Sign. Share.</text>
+<rect x="705" y="88" width="215" height="302" rx="8" fill="#B8CBB1"/>
+<rect x="678" y="112" width="215" height="302" rx="8" fill="#D0DFC4"/>
+<polygon points="659,133 823.92,133 876,185.07999999999998 876,427 659,427" fill="#FFFFFF"/>
+<polygon points="823.92,133 823.92,185.07999999999998 876,185.07999999999998" fill="#CBDDBA"/>
+<text x="686" y="191.58" font-family="DejaVu Sans, Arial, sans-serif" font-size="11" fill="#657066">YOUR DOCUMENT</text>
+<polyline points="687,215 821,215" fill="none" stroke="#33594A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="687,236 791,236" fill="none" stroke="#CDD6CA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="687,257 821,257" fill="none" stroke="#CDD6CA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="686" y="289" width="162" height="55" rx="5" fill="#E2ECD8"/>
+<polyline points="704,317 715,328 735,305" fill="none" stroke="#33594A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="751,313 829,313" fill="none" stroke="#33594A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="751,327 813,327" fill="none" stroke="#A5B59F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="687,389 695,374 697,388 711,368 710,389 725,379 735,389 756,374 769,383 814,383" fill="none" stroke="#33594A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

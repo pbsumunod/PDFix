@@ -1,0 +1,24 @@
+Loading local repository...                                                     
+[=========                              ] 25% Loading local repository...       
+[=========                              ] 25% Fetch remote repository...        
+[=======================================] 100% Fetch remote repository...       
+Auto-selecting single ABI x86_64
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/04 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Observed package id 'build-tools;35.0.0' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/build-tools/35.0.0' (Expected '/home/mikasa910x/.buildozer/android/platform/build-tools/35.0.0')
+Warning: Observed package id 'build-tools;36.0.0' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/build-tools/36.0.0' (Expected '/home/mikasa910x/.buildozer/android/platform/build-tools/36.0.0')
+Warning: Observed package id 'build-tools;37.0.0' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/build-tools/37.0.0' (Expected '/home/mikasa910x/.buildozer/android/platform/build-tools/37.0.0')
+Warning: Observed package id 'emulator' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/emulator' (Expected '/home/mikasa910x/.buildozer/android/platform/emulator')
+Warning: Observed package id 'platform-tools' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/platform-tools' (Expected '/home/mikasa910x/.buildozer/android/platform/platform-tools')
+Warning: Observed package id 'platforms;android-33' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/platforms/android-33' (Expected '/home/mikasa910x/.buildozer/android/platform/platforms/android-33')
+Warning: Observed package id 'platforms;android-34' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/platforms/android-34' (Expected '/home/mikasa910x/.buildozer/android/platform/platforms/android-34')
+Warning: Observed package id 'platforms;android-36' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/platforms/android-36' (Expected '/home/mikasa910x/.buildozer/android/platform/platforms/android-36')
+Warning: Observed package id 'system-images;android-36;google_apis_ps16k;x86_64' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/system-images/android-36/google_apis_ps16k/x86_64' (Expected '/home/mikasa910x/.buildozer/android/platform/system-images/android-36/google_apis_ps16k/x86_64')
+Warning: Observed package id 'tools' in inconsistent location '/home/mikasa910x/.buildozer/android/platform/android-sdk/tools' (Expected '/home/mikasa910x/.buildozer/android/platform/tools')

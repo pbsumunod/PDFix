@@ -1,0 +1,10 @@
+{
+  "atUtc": "2026-09-24T14:58:55Z",
+  "serial": "emulator-5580",
+  "package": "com.sumclartech.pdfeditorez.validation",
+  "apk": "app/build/outputs/apk/validation/app-validation.apk",
+  "sha256": "41ee229b28681c736891513e5ed9f05b391f583b86dd088fd0009a54af567ed5",
+  "install": "Performing Streamed Install\nSuccess\n",
+  "launch": "Starting: Intent { cmp=com.sumclartech.pdfeditorez.validation/com.sumclartech.paperlane.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: com.sumclartech.pdfeditorez.validation/com.sumclartech.paperlane.MainActivity\nTotalTime: 2782\nWaitTime: 2804\nComplete\n",
+  "productionOptimizationRules": true
+}

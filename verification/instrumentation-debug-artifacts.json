@@ -1,0 +1,19 @@
+{
+  "startedAtUtc": null,
+  "timestampNote": "The native instrumentation log does not record an exact start timestamp; no start time is inferred.",
+  "versionName": "1.1.0",
+  "versionCode": 2,
+  "log": "verification/instrumentation-native.log",
+  "serial": "emulator-5580",
+  "variant": "debug",
+  "apks": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "sha256": "779592a01d4713a5b92f6c30d905291cc0648057d6492f76af8c0c0734e1fd75"
+    },
+    {
+      "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "sha256": "270f83972de21e71a5566d36c7883046de78d914581834355b0f5577bad5188b"
+    }
+  ]
+}

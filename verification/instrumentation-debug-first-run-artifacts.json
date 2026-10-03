@@ -1,0 +1,15 @@
+{
+  "startedAtUtc": "2026-09-24T14:51:55Z",
+  "serial": "emulator-5580",
+  "variant": "debug",
+  "apks": [
+    {
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "sha256": "e925c54ddaea420cf7e12a2f7388f2a84608e0760f15cf9ec44c1e550692fb29"
+    },
+    {
+      "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+      "sha256": "0aa697f17ed311d7d36553f7296e4c1c75695c4656731c75db04cd8719a47246"
+    }
+  ]
+}

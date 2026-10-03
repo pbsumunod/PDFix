@@ -1,0 +1,42 @@
+PDFix - third-party notices
+
+The application's own branding does not imply endorsement by the projects below.
+This file accompanies the full applicable license texts in this assets/licenses
+directory. Google's proprietary SDK terms apply to its separately licensed SDKs.
+
+Apache PDFBox and FontBox / PdfBox-Android
+PDFBox is a project of the Apache Software Foundation.
+Copyright The Apache Software Foundation and contributors.
+Android adaptation: Copyright Tom Roush and contributors.
+https://pdfbox.apache.org/
+https://github.com/TomRoush/PdfBox-Android
+Licensed under the Apache License, Version 2.0; see Apache-2.0.txt.
+Dependency: com.tom-roush:pdfbox-android:2.0.27.0.
+
+AndroidX / Jetpack Compose and Kotlin / kotlinx.coroutines
+Copyright The Android Open Source Project, JetBrains s.r.o., and contributors.
+https://developer.android.com/jetpack/androidx
+https://kotlinlang.org/
+https://github.com/Kotlin/kotlinx.coroutines
+Licensed under the Apache License, Version 2.0; see Apache-2.0.txt.
+
+Bouncy Castle cryptography libraries
+Copyright The Legion of the Bouncy Castle Inc. and contributors.
+https://www.bouncycastle.org/
+PDFBox transitive dependency version 1.72.
+See Bouncy-Castle-LICENSE.txt for its permissive license.
+
+DejaVu Sans font
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+Bitstream Vera is a trademark of Bitstream, Inc.
+DejaVu changes are in the public domain.
+https://dejavu-fonts.github.io/
+See DejaVu-LICENSE.txt. The bundled PDF font is DejaVu Sans. Its legacy
+asset filename Inter-Regular.ttf does not identify its actual font family.
+
+Google Play Billing, Google Play services and ML Kit
+https://developer.android.com/google/play/billing
+https://developers.google.com/ml-kit/terms
+These SDKs are provided under Google's applicable SDK/service terms. They are
+not represented as licensed under Apache 2.0 by this notice. ML Kit diagnostic
+collection is described in the app's privacy policy.

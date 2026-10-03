@@ -1,0 +1,11 @@
+{
+  "serial": "emulator-5580",
+  "checked_utc": "2026-09-24T14:39:14.716192+00:00",
+  "boot_completed": "1",
+  "sdk": "36",
+  "android": "16",
+  "abi": "x86_64",
+  "page_size": "16384",
+  "screen": "Physical size: 720x1280",
+  "density": "Physical density: 320"
+}

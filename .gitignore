@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+publisher.properties
+signing.properties
+*.jks
+*.keystore
+captures/
+delivery/*.apk
+delivery/*.aab
+delivery/*.zip
+verification/device-*.xml

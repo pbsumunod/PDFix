@@ -1,0 +1,414 @@
+{
+  "artifact": "C:\\Users\\Admin\\Desktop\\Python Projects\\PROJECT PYTHON\\PDF-Editor-EZ\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+  "sha256": "4c6d1ed030a430ae6b40091246e4c87afede9e2fd18f28825dc32f3bacf59004",
+  "size_bytes": 72914412,
+  "failures": [],
+  "warnings": [
+    "Ad SDK marker scan covers known entry points only; review the dependency tree too",
+    "Static alignment checks do not replace testing on a 16 KB Android device/emulator",
+    "APK signing provenance and Play billing configuration require separate verification"
+  ],
+  "manifest": {
+    "package": "com.sumclartech.pdfeditorez.debug",
+    "sdk": {
+      "minSdkVersion": 26,
+      "targetSdkVersion": 36
+    },
+    "application": {
+      "theme": "@0x7f0f010e",
+      "label": "@0x7f0e001c",
+      "icon": "@0x7f0c0000",
+      "name": "com.sumclartech.paperlane.PaperlaneApplication",
+      "debuggable": true,
+      "allowBackup": false,
+      "supportsRtl": true,
+      "extractNativeLibs": false,
+      "fullBackupContent": false,
+      "usesCleartextTraffic": false,
+      "roundIcon": "@0x7f0c0000",
+      "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+      "dataExtractionRules": "@0x7f110001"
+    },
+    "permissions": [
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.INTERNET",
+      "com.android.vending.BILLING",
+      "com.sumclartech.pdfeditorez.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ]
+  },
+  "ad_sdk_marker_hits": [],
+  "dex_file_count": 10,
+  "native_libraries": [
+    {
+      "bits": 64,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 7232,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 7232,
+          "virtual_address": 23616,
+          "memory_size": 912,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 8144,
+          "virtual_address": 40912,
+          "memory_size": 16,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 23616,
+          "memory_size": 960,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "size_bytes": 10096,
+      "zip_uncompressed": true,
+      "zip_data_offset": 22904832,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 64,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 10264688,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 10272768,
+          "virtual_address": 10272768,
+          "memory_size": 569344,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 10840608,
+          "virtual_address": 10856992,
+          "memory_size": 520816,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 10272768,
+          "memory_size": 569344,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+      "size_bytes": 11064544,
+      "zip_uncompressed": true,
+      "zip_data_offset": 22921216,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 32,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 5312,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 5312,
+          "virtual_address": 21696,
+          "memory_size": 460,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 5772,
+          "virtual_address": 38540,
+          "memory_size": 8,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 21696,
+          "memory_size": 2880,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+      "size_bytes": 7252,
+      "zip_uncompressed": true,
+      "zip_data_offset": 33996800,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 32,
+      "load_segments": [
+        {
+          "alignment": 4096,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 6302080,
+          "writable": false,
+          "aligned_16kb": false
+        },
+        {
+          "alignment": 4096,
+          "offset": 6303744,
+          "virtual_address": 6303744,
+          "memory_size": 299008,
+          "writable": true,
+          "aligned_16kb": false
+        },
+        {
+          "alignment": 4096,
+          "offset": 6600960,
+          "virtual_address": 6605056,
+          "memory_size": 347929,
+          "writable": true,
+          "aligned_16kb": false
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 6303744,
+          "memory_size": 299008,
+          "end_aligned_16kb": true,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": false,
+      "relro_aligned_16kb": true,
+      "relro_page_padding_safe": true,
+      "path": "lib/armeabi-v7a/libmlkit_google_ocr_pipeline.so",
+      "size_bytes": 6781940,
+      "zip_uncompressed": true,
+      "zip_data_offset": 34013184,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 32,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 7456,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 7456,
+          "virtual_address": 23840,
+          "memory_size": 456,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 7912,
+          "virtual_address": 40680,
+          "memory_size": 8,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 23840,
+          "memory_size": 736,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/x86/libandroidx.graphics.path.so",
+      "size_bytes": 9284,
+      "zip_uncompressed": true,
+      "zip_data_offset": 40796160,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 32,
+      "load_segments": [
+        {
+          "alignment": 4096,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 11101568,
+          "writable": false,
+          "aligned_16kb": false
+        },
+        {
+          "alignment": 4096,
+          "offset": 11104256,
+          "virtual_address": 11104256,
+          "memory_size": 294912,
+          "writable": true,
+          "aligned_16kb": false
+        },
+        {
+          "alignment": 4096,
+          "offset": 11395584,
+          "virtual_address": 11399680,
+          "memory_size": 282944,
+          "writable": true,
+          "aligned_16kb": false
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 11104256,
+          "memory_size": 294912,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": true
+        }
+      ],
+      "elf_aligned_16kb": false,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": false,
+      "path": "lib/x86/libmlkit_google_ocr_pipeline.so",
+      "size_bytes": 11561048,
+      "zip_uncompressed": true,
+      "zip_data_offset": 40812544,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 64,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 7872,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 7872,
+          "virtual_address": 24256,
+          "memory_size": 936,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 8808,
+          "virtual_address": 41576,
+          "memory_size": 16,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 24256,
+          "memory_size": 4416,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/x86_64/libandroidx.graphics.path.so",
+      "size_bytes": 10760,
+      "zip_uncompressed": true,
+      "zip_data_offset": 52379648,
+      "zip_aligned_16kb": true
+    },
+    {
+      "bits": 64,
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "offset": 0,
+          "virtual_address": 0,
+          "memory_size": 10871360,
+          "writable": false,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 10878976,
+          "virtual_address": 10878976,
+          "memory_size": 532480,
+          "writable": true,
+          "aligned_16kb": true
+        },
+        {
+          "alignment": 16384,
+          "offset": 11408448,
+          "virtual_address": 11424832,
+          "memory_size": 406608,
+          "writable": true,
+          "aligned_16kb": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "virtual_address": 10878976,
+          "memory_size": 532480,
+          "end_aligned_16kb": false,
+          "page_padding_overlaps_writable_load": false
+        }
+      ],
+      "elf_aligned_16kb": true,
+      "relro_aligned_16kb": false,
+      "relro_page_padding_safe": true,
+      "path": "lib/x86_64/libmlkit_google_ocr_pipeline.so",
+      "size_bytes": 11626128,
+      "zip_uncompressed": true,
+      "zip_data_offset": 52396032,
+      "zip_aligned_16kb": true
+    }
+  ],
+  "native_library_names": [
+    "libandroidx.graphics.path.so",
+    "libmlkit_google_ocr_pipeline.so"
+  ],
+  "native_abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86",
+    "x86_64"
+  ],
+  "passed": true
+}

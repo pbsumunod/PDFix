@@ -1,0 +1,71 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+w: file:///mnt/c/Users/Admin/Desktop/Python%20Projects/PROJECT%20PYTHON/Paperlane/app/build.gradle.kts:56:21: 'jvmTarget: String' is deprecated. Please migrate to the compilerOptions DSL. More details are here: https://kotl.in/u1r8ln
+
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preValidationBuild UP-TO-DATE
+> Task :app:generateValidationBuildConfig UP-TO-DATE
+> Task :app:checkValidationAarMetadata UP-TO-DATE
+> Task :app:generateValidationResValues UP-TO-DATE
+> Task :app:mapValidationSourceSetPaths UP-TO-DATE
+> Task :app:generateValidationResources UP-TO-DATE
+> Task :app:mergeValidationResources UP-TO-DATE
+> Task :app:packageValidationResources UP-TO-DATE
+> Task :app:parseValidationLocalResources UP-TO-DATE
+> Task :app:createValidationCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksValidation UP-TO-DATE
+> Task :app:processValidationMainManifest UP-TO-DATE
+> Task :app:processValidationManifest UP-TO-DATE
+> Task :app:processValidationManifestForPackage UP-TO-DATE
+> Task :app:processValidationResources UP-TO-DATE
+> Task :app:compileValidationKotlin UP-TO-DATE
+> Task :app:javaPreCompileValidation UP-TO-DATE
+> Task :app:compileValidationJavaWithJavac UP-TO-DATE
+> Task :app:bundleValidationClassesToCompileJar UP-TO-DATE
+> Task :app:preValidationAndroidTestBuild SKIPPED
+> Task :app:processValidationAndroidTestManifest UP-TO-DATE
+> Task :app:generateValidationAndroidTestBuildConfig UP-TO-DATE
+> Task :app:checkValidationAndroidTestAarMetadata UP-TO-DATE
+> Task :app:generateValidationAndroidTestResValues UP-TO-DATE
+> Task :app:mapValidationAndroidTestSourceSetPaths UP-TO-DATE
+> Task :app:generateValidationAndroidTestResources UP-TO-DATE
+> Task :app:mergeValidationAndroidTestResources UP-TO-DATE
+> Task :app:processValidationAndroidTestResources UP-TO-DATE
+> Task :app:compileValidationAndroidTestKotlin UP-TO-DATE
+> Task :app:javaPreCompileValidationAndroidTest UP-TO-DATE
+> Task :app:compileValidationAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:mergeValidationAndroidTestShaders UP-TO-DATE
+> Task :app:compileValidationAndroidTestShaders NO-SOURCE
+> Task :app:generateValidationAndroidTestAssets UP-TO-DATE
+> Task :app:mergeValidationAndroidTestAssets UP-TO-DATE
+> Task :app:compressValidationAndroidTestAssets UP-TO-DATE
+> Task :app:checkValidationAndroidTestDuplicateClasses UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:processValidationAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeValidationAndroidTestJavaResource UP-TO-DATE
+> Task :app:checkValidationDuplicateClasses UP-TO-DATE
+> Task :app:mergeValidationArtProfile UP-TO-DATE
+> Task :app:expandValidationArtProfileWildcards UP-TO-DATE
+> Task :app:mergeValidationGeneratedProguardFiles UP-TO-DATE
+> Task :app:processValidationJavaRes UP-TO-DATE
+> Task :app:mergeValidationJavaResource UP-TO-DATE
+> Task :app:mergeValidationStartupProfile UP-TO-DATE
+> Task :app:minifyValidationWithR8 UP-TO-DATE
+> Task :app:mergeValidationAndroidTestJniLibFolders UP-TO-DATE
+> Task :app:mergeValidationJniLibFolders UP-TO-DATE
+> Task :app:mergeValidationNativeLibs UP-TO-DATE
+> Task :app:mergeValidationAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripValidationAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningValidationAndroidTest UP-TO-DATE
+> Task :app:writeValidationAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :app:minifyValidationAndroidTestWithR8
+> Task :app:packageValidationAndroidTest
+> Task :app:createValidationAndroidTestApkListingFileRedirect
+> Task :app:assembleValidationAndroidTest
+
+BUILD SUCCESSFUL in 35s
+53 actionable tasks: 3 executed, 50 up-to-date

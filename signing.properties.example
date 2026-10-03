@@ -1,0 +1,5 @@
+# Keep your upload keystore and passwords private; do not commit this file.
+storeFile=upload-keystore.jks
+storePassword=
+keyAlias=upload
+keyPassword=

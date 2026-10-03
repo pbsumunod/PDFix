@@ -1,0 +1,37 @@
+{
+  "version": "1.1.0",
+  "parser": "pypdf 6.19.0",
+  "source": "Actual Android Files exports from optimized validation app",
+  "before_sha256": "32be9a866789d12a343513b680d351627d5a4757d37e321f984e47def3668c49",
+  "after_sha256": "e5525f74139a4244d6d7f398fbe76af466f62e85746934448bd61ee09173f1c2",
+  "bytes": 819766,
+  "checks": {
+    "two_pages": true,
+    "old_text_was_present": true,
+    "old_text_removed": true,
+    "replacement_present": true,
+    "all_other_page_one_words_preserved": true,
+    "font_names_and_programs_unchanged": true,
+    "second_page_content_unchanged": true,
+    "three_form_values_unchanged": true
+  },
+  "fonts": {
+    "/F1": {
+      "name": "/DejaVuSans",
+      "programs": {
+        "/FontFile2": "690243adfefe0ce154b547db6205794bd30ac4277275179517a90994f4980648"
+      }
+    },
+    "/F2": {
+      "name": "/AAAAYZ+DejaVuSans",
+      "programs": {
+        "/FontFile2": "03951b993277cb17e43843ec6f127a66df9c9aeddc2d06a4d3110efc68031166"
+      }
+    }
+  },
+  "form_values": {
+    "name": "Alex Morgan",
+    "email": "alex@example.test",
+    "plan": "Ready to share"
+  }
+}

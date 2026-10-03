@@ -1,0 +1,19 @@
+--------- beginning of crash
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: FATAL EXCEPTION: main
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: Process: com.sumclartech.pdfeditorez.validation, PID: 6779
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: java.lang.NoSuchMethodError: No static method f(Ljava/lang/Object;Ljava/lang/String;)V in class LH3/k; or its super classes (declaration of 'H3.k' appears in /data/app/~~61yez6EbM1gY4GULyamTiQ==/com.sumclartech.pdfeditorez.validation-7s7TNgHi5zekvLKYhx_-Tg==/base.apk)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at androidx.test.platform.app.AppComponentFactoryRegistry.instantiateApplication(Unknown Source:2)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at androidx.test.runner.MonitoringInstrumentation.newApplication(MonitoringInstrumentation.java:151)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at androidx.test.runner.AndroidJUnitRunner.newApplication(AndroidJUnitRunner.java:300)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1479)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.LoadedApk.makeApplicationInner(LoadedApk.java:1411)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7790)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2546)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:248)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9067)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)
+09-24 22:41:59.145  6779  6779 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)
