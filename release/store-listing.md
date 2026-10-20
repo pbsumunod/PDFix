@@ -10,9 +10,22 @@ Publisher must confirm this copy against the final release UI, support contact, 
 
 **Suggested tags:** PDF, Productivity, Document editor, Scanner, Forms
 
-**Release name:** 1.1.0 – PDF editing and forms
+**Release name:** 1.0.0 – Welcome to PDFix
 
-**Release notes:** Work with PDFs on your device: edit supported text, fill forms, sign, organize pages, scan documents, and preview exports. Includes a 30-day editing trial and optional one-time unlock.
+**Release notes:**
+
+```
+Welcome to PDFix! Finish everyday PDF paperwork on your phone.
+
+• Edit supported existing text, or add new text
+• Fill forms and add a drawn signature
+• Organize pages and scan paper documents
+• Preview before you save or share
+• Undo with saved history; deleted files go to Trash
+• Documents are processed on your device. No account, no ads.
+
+Includes a 30-day editing trial, then an optional one-time unlock. No subscription. Reading and exporting always stay available.
+```
 
 **News or educational app:** No. PDFix is a productivity tool.
 
